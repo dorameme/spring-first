@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-@Controller
+@Controller//helloController는 스프링이 제공하는 컨트롤러로 스프링빈으로 자동 등록된다.(@Controller가 있으면 자동등록)
 public class HelloController {
 
     @GetMapping("hello")
